@@ -1,0 +1,73 @@
+const memberData = [
+  {
+    name: "Vedant Agarwal",
+    email: "vedant@members.com",
+    code: "abcd",
+    tier: "gold",
+    gym: "FitWay",
+    exercises: {
+      monday: [
+        ["squats", "15"],
+        ["bicep curls", "20"],
+      ],
+      tuesday: [["skipping", "15"]],
+      wednesday: [["pushups", "15"]],
+      thursday: [["crunches", "15"]],
+      friday: [["hammer curl", "15"]],
+      saturday: [["squats", "15"]],
+    },
+    age: "42",
+    phone: "+919831048294",
+    attendance: 32,
+    totalclasses: 40,
+    type: "member",
+  },
+  {
+    name: "Devansh Agarwal",
+    email: "devansh@members.com",
+    code: "abcd",
+    tier: "silver",
+    gym: "FitWay",
+    exercises: {
+      monday: [
+        ["squats", "15"],
+        ["bicep curls", "20"],
+      ],
+      tuesday: [["skipping", "15"]],
+      wednesday: [["pushups", "15"]],
+      thursday: [["crunches", "15"]],
+      friday: [["hammer curl", "15"]],
+      saturday: [["squats", "15"]],
+    },
+    age: "32",
+    phone: "+91916346900",
+    attendance: 32,
+    totalclasses: 40,
+    type: "member",
+  },
+  {
+    name: "Yash Agarwal",
+    email: "yash@members.com",
+    code: "abcd",
+    tier: "bronze",
+    gym: "FitWay",
+    exercises: {
+      monday: [
+        ["squats", "15"],
+        ["bicep curls", "20"],
+      ],
+      tuesday: [["skipping", "15"]],
+      wednesday: [["pushups", "15"]],
+      thursday: [["crunches", "15"]],
+      friday: [["hammer curl", "15"]],
+      saturday: [["squats", "15"]],
+    },
+    age: "22",
+    phone: "+919674726403",
+    attendance: 52,
+    totalclasses: 60,
+    type: "member",
+  },
+];
+
+export default memberData;
