@@ -1,34 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## ⚠ Important
+Use these credentials to access the site: 
+- Email: admin@fitway.com
+- Password: admin
 
-## Getting Started
+## ☀ Inspiration
+Saw the existing Solutions but found that they were slowly turning obsolete due to no innovation in the area of User Experience. Gyms near my home use documents and excel to store their member information. These small local gyms don't have the budget to create their own application and software, so they lose their clients to huge gym chains. Hence, this will allow them to compete in this tough market.
 
-First, run the development server:
+## ✨ What it does
+It aggregates data from various sources throughout the website and presents it in an analytical way to the owner of the gym. This allows them to keep track of various things like finance, users, classes and trainers. This application has three parts: 
+- Admin: To access and work with different data obtained from their members
+- Trainers: Get to set exercises for their members 
+- Members: They can book classes, see their workout plan and set goals.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+The Web application has the admin panel. The Trainer and Member will be integrated later. You can check those panels out in the Figma file.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠 How we built it
+- Tailwind
+- Next
+- Coil
+- Twilio
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## 🚧 Challenges we ran into
+- At the last moment there was a problem with the Database so I had to shift all the data, making my work on realtime data updates redundant 😢. After integrating Recharts throughout the entire application, while deploying the application, Vercel tells me that it is causing error, so had to scrap that.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 💪 Accomplishments that we're proud of
+- Pulled off an all-nighter to finish this project solo
+- Still continued even after facing so many problems
+- Not to brag but Loved the design
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 🤓 What we learned
+- Learned NextJs to build a full-stack application using a single framework
+- Learned Twilio (Great product 🥂)
+- A lot about gyms
 
-## Learn More
+## 🤔 What's next for Gym Up
+- Making the Trainer and User Interface
+- Adding Biometric Functionality and several other features as ideas come along
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Hope you liked it! 🙌
