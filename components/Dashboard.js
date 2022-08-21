@@ -1,6 +1,5 @@
 import GridInfo from "./ui/GridInfo";
 import Image from "next/image";
-import Chart from "../public/images/chart.png";
 
 const Dashboard = () => {
   const grid = {
@@ -14,7 +13,6 @@ const Dashboard = () => {
       <GridInfo data={grid} />
       <h3 className="font-prim font-medium text-prim text-2xl ">Metrics -</h3>
       <div className="w-8/12 h-60 relative">
-        <Image src={Chart} alt="chart" layout="fill" />
       </div>
     </section>
   );
