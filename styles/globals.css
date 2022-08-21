@@ -1,9 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Magnat Head";
+  src: url('../public/fonts/MagnatHead-Light.otf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Magnat Head";
+  src: url('../public/fonts/MagnatHead-Regular.otf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Magnat Head";
+  src: url('../public/fonts/MagnatHead-Medium.otf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Magnat Head";
+  src: url('../public/fonts/MagnatHead-SemiBold.otf');
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Magnat Text";
+  src: url('../public/fonts/MagnatText-Light.otf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Magnat Text";
+  src: url('../public/fonts/MagnatText-Regular.otf');
+  font-weight: 400;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: #161616 !important;
+    height: 100%;
 }
 
 a {
