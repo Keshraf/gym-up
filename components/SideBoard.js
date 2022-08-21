@@ -45,12 +45,10 @@ const SideBoard = () => {
         </Linked>
       </div>
       <div className="flex flex-col gap-5">
-        <Linked href="/admin">
-          <div className="flex flex flex-row gap-6 items-center  cursor-pointer">
-            <FiPhoneCall className="text-2xl text-sec" />
-            <h3 className="font-sec text-white text-2xl">Support</h3>
-          </div>
-        </Linked>
+        <div className="flex flex flex-row gap-6 items-center  cursor-pointer">
+          <FiPhoneCall className="text-2xl text-sec" />
+          <h3 className="font-sec text-white text-2xl">Support</h3>
+        </div>
         <div
           className="flex flex flex-row gap-6 items-center  cursor-pointer"
           onClick={clickHandler}
