@@ -2,6 +2,7 @@ import {
   FiAirplay,
   FiDollarSign,
   FiLogIn,
+  FiMessageSquare,
   FiPhoneCall,
   FiUser,
   FiUsers,
@@ -41,6 +42,12 @@ const SideBoard = () => {
           <div className="flex flex flex-row gap-6 items-center  cursor-pointer">
             <FiDollarSign className="text-2xl text-sec" />
             <h3 className="font-sec text-white text-2xl">Finance</h3>
+          </div>
+        </Linked>
+        <Linked href="/admin/message">
+          <div className="flex flex flex-row gap-6 items-center  cursor-pointer">
+            <FiMessageSquare className="text-2xl text-sec" />
+            <h3 className="font-sec text-white text-2xl">Message</h3>
           </div>
         </Linked>
       </div>

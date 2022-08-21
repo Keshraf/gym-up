@@ -11,7 +11,11 @@ const Navigation = () => {
         <li className="rounded bg-white h-1.5 w-1.5"></li>
         <li className="cursor-pointer">Member</li>
         <li className="rounded bg-white h-1.5 w-1.5"></li>
-        <li className="cursor-pointer">Blogs</li>
+        <li className="cursor-pointer">
+          <Link href="/blog">
+            <a>Blogs</a>
+          </Link>
+        </li>
       </ul>
       <div className="flex flex-row gap-6">
         <Link href="/login">

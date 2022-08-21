@@ -8,6 +8,7 @@ const trainerData = [
     attendance: 86,
     salary: "2000",
     type: "trainer",
+    phone: "+918391043219",
   },
   {
     name: "Kamal Kumar",
@@ -18,6 +19,7 @@ const trainerData = [
     attendance: 76,
     salary: "2500",
     type: "trainer",
+    phone: "+918395643119",
   },
 ];
 
